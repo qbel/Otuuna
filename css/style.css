@@ -1,0 +1,36 @@
+/* Only for snippet */
+.double-nav .breadcrumb-dn {
+  color: #fff;
+}
+#back{
+  background-image: url('../img/banner.jpg');
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size:cover;
+  background-attachment: fixed;
+}
+#back2{
+  background-image: url('../img/second.jpeg');
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size:cover;
+  height: 53vh;
+  /* background-attachment: fixed; */
+}
+#fonts{
+  font-size: 12px;
+  text-align: justify;
+  /* font-weight: bolder; */
+}
+@media only screen and ( max-width: 1024px ) 
+{
+  .offset-4{
+    margin-left: 0;
+  }
+  .offset-1{
+    margin-left: 0;
+  }
+  .offset-3{
+    margin-left: 0;
+  }
+}
