@@ -126,15 +126,15 @@
  
 </div>
  <!--Main Layout-->
-  <main>
-    <div class="container text-center pt-5 pb-2">
+  <main style="background-color:rgb(235, 232, 232)">
+    <div class="container text-center pt-5 pb-2" >
         <!-- <h1 class="font-weight-bold">NO RESTRICTIONS</h1><hr style="width:20%;background-color:red"> -->
         <P class="font-weight-bold" >Select your digital pictures below. Digital picyures will be available for download within 24 hours( but usually much sooner).
             <br> You are welcome to post them on facebook, print them, photoshop them, email them to grandma, or frame a 12x18 for your<br>
             mantel. If you would prefer to order prints, we've got those too! Choose digital pictures or prints as you proceed to checkout.
         </P>
         
-        <div class="row">
+        <div class="row" >
             <div class="col-md-12">
             
                 <div id="mdb-lightbox-ui"></div>
@@ -199,24 +199,40 @@
             
             </div>
         </div>
+    </main>
+    <div class="col-md-12">
+            <nav aria-label="Page navigation example" class="mt-3" style="background-color:white" >
+                    <ul class="pagination pg-blue justify-content-center" >
+                        <li class="page-item pl-5 pr-5">
+                            <span aria-hidden="true">&laquo;</span>
+                            <a class="page-link" tabindex="-1">Previous</a>
+                        </li>
+                        <li class="page-item pl-5 pr-5">
+                            <a class="page-link">Next</a>
+                            <span aria-hidden="true">&raquo;</span>
+                        </li>
+                    </ul>
+                </nav>
+    </div>
+        
         <div class="row">
-                <div class="col-md-4 offset-4" style="">
-                        <!-- <form>
-                            <a href="#"><button type="button" class="btn btn-success btn-block" style="border-radius:8px">Upload photo</button></a>
-                        </form> -->
-                        <form class="md-form" action="#">
-                            <div class="file-field">
-                                <div class="btn btn-success btn-sm btn-block float-left" style="border-radius:8px">
-                                <span>Upload photo</span>
-                                <input type="file" multiple>
-                                </div>
-                            </div>
-                        </form>
+            <div class="col-md-4 offset-4" style="">
+                <!-- <form>
+                    <a href="#"><button type="button" class="btn btn-success btn-block" style="border-radius:8px">Upload photo</button></a>
+                </form> -->
+                <form class="md-form" action="#">
+                    <div class="file-field">
+                        <div class="btn btn-success btn-sm btn-block float-left" style="border-radius:8px">
+                        <span>Upload photo</span>
+                        <input type="file" multiple>
+                        </div>
                     </div>
+                </form>
             </div>
+        </div>
             
     </div>
-  </main>
+  <!-- </main> -->
   <!--Main Layout-->
 
   <!-- SCRIPTS -->
