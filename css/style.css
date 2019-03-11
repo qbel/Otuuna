@@ -8,6 +8,9 @@
   background-position: center;
   background-size:cover;
   background-attachment: fixed;
+  -moz-background-size:cover;
+  -webkit-background-size:cover;
+  -o-background-size:cover;
 }
 #back2{
   background-image: url('../img/second.jpeg');
