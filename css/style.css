@@ -27,6 +27,14 @@
 }
 @media only screen and ( max-width: 1024px ) 
 {
+  #back{
+    background-image: url('../img/banner.jpg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size:cover;
+    background-attachment: fixed;
+    /* height: 100%; */
+  }
   .offset-4{
     margin-left: 0;
   }
